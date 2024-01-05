@@ -1,0 +1,315 @@
+.first{
+   position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 1px;
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    color: white;
+}
+.text-inside-circle {
+    margin-left: 1px;
+    font-size: 15px;
+  }
+.button button {
+  position:absolute;
+    background-color:darkviolet;
+    color: white;
+    height: 40px;
+    width: 100px;
+    top:20px;
+    left:90%;
+  }
+  .main img {
+    width: 100%; 
+    height: auto; 
+    max-height: 100%; 
+    max-width: 100%; 
+  }
+  .image-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    font-size: 30px;
+  }
+  .image img{
+    position: relative;
+    height:100%;
+    width: 49%;
+    max-height:100%;
+  }
+  .info{
+    position:absolute;
+    height:100%;
+    width: 49%;
+    max-height:100%;
+    left:50%;
+    top:890px;
+    font-size: 25px;
+    font-family: cursive;
+  }
+  .info h1{
+    text-align: center;
+  }
+  .fitness-classes h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: cursive;
+    position: relative;
+    top:5px;
+  }
+  .fitness-classes{
+    font-size: 25px;
+    font-family: cursive;
+    position: relative;
+    top:20px;
+    background-color: blueviolet;
+    color: white;
+    height:600px;
+    
+  }
+  .fitness-classes p,
+.fitness-classes button {
+  display: inline-block; 
+  vertical-align: middle; 
+  margin: 10;
+  justify-content: space-evenly;
+}
+.fitness-classes button{
+    height: 40px;
+    width: 80px;
+    position: relative;
+    left:50%;
+}
+.fitness-classes p{
+    position: relative;
+    left:10%;
+}
+.cardio button{
+    position: relative;
+    left:50%;
+}
+.strength button{
+    position: relative;
+    left:55.5%;
+}
+.flexible button{
+    position: relative;
+    left:51.5%;
+}
+.group button{
+    position: relative;
+    left:52.5%;
+}
+.recover button{
+    position: relative;
+    left:50.5%;
+}
+.challenges img{
+    position:absolute;
+    height:70%;
+    width:49%;
+    top:2100px;
+    left:51%;
+}
+.text{
+    position: relative;
+    font-size: 25.5px;
+    top:1px;
+    font-family: cursive;
+    width:45%;
+}
+.text h1{
+    position:relative;
+    text-align: center;
+    font-family:cursive;
+    top:0px;
+}
+.text p{
+    position: relative;
+    left: 10px;
+}
+.motivation{
+  background-color:darkviolet;
+  position: relative;
+  top:60px;
+  height:600px;
+}
+.img img{
+  position: relative;
+  top:50px;
+  height:500px;
+  width:30%;
+  left:50px;
+}
+.text3{
+  position:absolute;
+  top:100px;
+  left:40%;
+  font-size: 30px;
+  font-family:cursive;
+  color: white;
+}
+.text3 h1{
+  position: relative;
+  left:10%;
+}
+.plan h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  position: relative;
+  top:70px;
+}
+.plan1{
+  background-color: darkviolet;
+  position: relative;
+  top:90px;
+  width: 20%;
+  height: 400px;
+  color:white;
+  font-size: 20px;
+  font-family: cursive;
+  left:100px;
+}
+.plan1 h3{
+  text-align: center;
+}
+.plan1 button{
+  position: relative;
+  height: 25px;
+  width:30%;
+  left:100px;
+  top: 12px;
+}
+.plan1 p{
+  position: relative;
+  left:10px;
+}
+.plan2{
+  background-color:black;
+  position:absolute;
+  top:3390px;
+  width: 20%;
+  height: 330px;
+  color:white;
+  font-size: 20px;
+  font-family: cursive;
+  left:620px;
+}
+.plan2 h3{
+  text-align: center;
+}
+.plan2 button{
+  position: relative;
+  height: 25px;
+  width:30%;
+  left:100px;
+  top: 12px;
+}
+.plan2 p{
+  position: relative;
+  left: 10px;
+}
+.plan3{
+  background-color:darkviolet;
+  position:absolute;
+  top:3390px;
+  width: 20%;
+  height: 400px;
+  color:white;
+  font-size: 20px;
+  font-family: cursive;
+  left:1170px;
+}
+.plan3 h3{
+  text-align: center;
+}
+.plan3 button{
+  position: relative;
+  height: 25px;
+  width:30%;
+  left:100px;
+  top: 12px;
+}
+.plan3 p{
+  position: relative;
+  left:5px;
+}
+.offer{
+  position: relative;
+  top:50px;
+  background-color: white;
+  color: blueviolet;
+}
+.last{
+  position:relative;
+  height: 600px;
+  max-height: 700px;
+}
+
+.contact{
+  position: relative;
+  background-color: blueviolet;
+  top:28%;
+  height:700px;
+  color:white;
+
+}
+.contact h1{
+  position: relative;
+  text-align: start;
+  left:10%;
+  font-size: 45px;
+  font-family:cursive;
+  top:50px;
+}
+.contact h5{
+  position: relative;
+  text-align: start;
+  left:12%;
+  font-size:20px;
+  font-family:cursive;
+  top:30px;
+}
+.contact form{
+  position: relative;
+  left:13%;
+  font-size: 15px;
+  font-family: cursive;
+  top:10px;
+}
+.contact button{
+  position: relative;
+  left:12%;
+  font-size:15px;
+  top:350px;
+  width: 10%;
+  height:30px;
+  background-color:white;
+  color:black;
+}
+.address h1{
+  position:absolute;
+  font-size:20px;
+  top:400px;
+  left:55%;
+  font-family: cursive;
+  color: white;
+}
+.address button{
+  position:absolute;
+  font-size:20px;
+  font-family: cursive;
+  left:55%;
+  top:550px;
+  width:16%;
+  height:40px;
+}
